@@ -40,13 +40,13 @@ A neural network model was designed and trained with the following structure:
 
 Several optimization attempts were made to achieve a target accuracy of over 75%:
 1.	Adjusting Data Preprocessing:
-o	Further combined categories and fine-tuned the handling of rare occurrences.
+    o	Further combined categories and fine-tuned the handling of rare occurrences.
 2.	Model Architecture:
-o	Experimented with different numbers of neurons and hidden layers.
+    o	Experimented with different numbers of neurons and hidden layers.
 3.	Activation Functions:
-o	Tried various activation functions to improve model performance.
+    o	Tried various activation functions to improve model performance.
 4.	Training Regimen:
-o	Adjusted the number of epochs and batch size to enhance learning.
+    o	Adjusted the number of epochs and batch size to enhance learning.
 
 
 # Results
@@ -56,19 +56,19 @@ o	Adjusted the number of epochs and batch size to enhance learning.
 2)	Through optimization, following improvements were implemented to achive the 75 % target.
 
     - used "name" as a feature.
-    ![alt text](image-1.png)
-    ![alt text](image.png)
-    - increaced hidden layers to 3 .
-    ![alt text](image-2.png)
-    - reduced epochs to 10
-    ![alt text](image-3.png)
-    ![alt text](image-4.png)
+        ![alt text](image-1.png)    
+        ![alt text](image.png) 
+    - increaced hidden layers to 3 .    
+        ![alt text](image-2.png)    
+    - reduced epochs to 10  
+        ![alt text](image-3.png)    
+        ![alt text](image-4.png)    
 
 # Neural Network Optimized Structure:
 
-Layers: 3 hidden layers.
-Activation Functions: ReLU for hidden layers, sigmoid for output layer.
-Epochs: 10, which was reduced from initial higher values to prevent overfitting.
+Layers: 3 hidden layers.    
+Activation Functions: ReLU for hidden layers, sigmoid for output layer. 
+Epochs: 10, which was reduced from initial higher values to prevent overfitting.    
 
 # Summary and Recommendations
 
@@ -76,10 +76,10 @@ The deep learning model successfully achieved the target accuracy of 75% through
 
 # Files in Repository
 
-•	AlphabetSoupCharity.ipynb: Notebook containing the initial data preprocessing, model training, and  evaluation steps.
-•	AlphabetSoupCharity_Optimization.ipynb: Notebook documenting the optimization attempts.
-•	AlphabetSoupCharity.h5: HDF5 file with the initial trained model.
-•	AlphabetSoupCharity_Optimization.h5: HDF5 file with the optimized model.
+•	AlphabetSoupCharity.ipynb: Notebook containing the initial data preprocessing, model training, and  evaluation steps.   
+•	AlphabetSoupCharity_Optimization.ipynb: Notebook documenting the optimization attempts. 
+•	AlphabetSoupCharity.h5: HDF5 file with the initial trained model.   
+•	AlphabetSoupCharity_Optimization.h5: HDF5 file with the optimized model.    
 
 # Performance:
 
